@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="209" height="209" viewBox="0, 0, 209, 209">
   <g id="Background">
-    <rect x="0" y="0" width="209" height="209" fill="#FFFFFF"/>
+    <path d="M0,0 L209,0 L209,209 L0,209 L0,0 z" fill="#FFFFFF"/>
   </g>
   <g id="Grid">
     <path d="M14.167,0.5 L14.833,209.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.45"/>
@@ -41,10 +41,13 @@
     <path d="M0.5,203.833 L209.5,204.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.45"/>
     <path d="M2.833,0.5 L3.5,209.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.45"/>
   </g>
-  <g id="Hexagon">
+  <g id="Hexagon_(no_border)" display="none">
+    <path d="M104.333,209 L14,156.928 L14.204,52.428 L104.704,-0 L195,52.072 L195,157 z" fill="#404040"/>
+  </g>
+  <g id="Hexagon_(border)">
     <g>
-      <path d="M104.333,209 L14,156.928 L14.204,52.428 L104.704,-0 L195,52.072 L195,157 z" fill="#404040"/>
-      <path d="M104.704,0 L195,52.072 L195,157 L104.333,209 L14,156.928 L14.204,52.428 L104.704,0 z M104.72,16.17 L28.189,60.506 L28.016,148.848 L104.351,192.85 L181,148.89 L181,60.16 L104.72,16.17 z" fill="#FFFFFE"/>
+      <path d="M104.846,201.5 L21.5,153.414 L21.689,56.914 L105.189,8.5 L188.5,56.586 L188.5,153.481 z" fill="#404040"/>
+      <path d="M104.846,201.5 L21.5,153.414 L21.689,56.914 L105.189,8.5 L188.5,56.586 L188.5,153.481 z" fill-opacity="0" stroke="#FFFFFE" stroke-width="14"/>
     </g>
   </g>
   <g id="Diags" display="none">
@@ -53,16 +56,14 @@
     <path d="M104.833,209.5 L105.204,0.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.45"/>
   </g>
   <g id="Border_Scores">
-    <path d="M29.5,149.167 L14.5,157.428" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
-    <path d="M14.704,52.928 L29.5,61.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
-    <path d="M104.833,0.5 L104.833,18.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
-    <path d="M180.833,60.833 L195.5,52.928" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
-    <path d="M180.833,149.167 L195.5,157.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
-    <path d="M104.833,192.5 L104.833,209.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M28.625,149.167 L14.5,157.428" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M14.704,52.928 L28.971,61.209" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M105.204,0.5 L105.204,16.875" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M181.375,60.875 L195.5,52.928" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M181.375,149.167 L195.5,157.667" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
+    <path d="M104.833,193.25 L104.833,209.5" fill-opacity="0" stroke="#B6B6B6" stroke-width="1" stroke-opacity="0.901"/>
   </g>
   <g id="Symbol">
-    <text transform="matrix(1, 0, 0, 1, 104, 105)">
-      <tspan x="-29.682" y="34" font-family="OpenSans-Bold" font-size="104" fill="#FFFFFE">~</tspan>
-    </text>
+    <path d="M91.17,107.039 Q88.377,107.039 85.203,108.74 Q82.029,110.441 79.287,113.184 L79.287,101.453 Q84.518,95.918 92.287,95.918 Q95.994,95.918 99.27,96.73 Q102.545,97.543 106.354,99.168 Q112.904,101.961 117.881,101.961 Q120.572,101.961 123.771,100.336 Q126.971,98.711 129.713,95.816 L129.713,107.547 Q124.584,113.082 116.713,113.082 Q113.361,113.082 110.314,112.422 Q107.268,111.762 102.697,109.883 Q96.045,107.039 91.17,107.039 z" fill="#FFFFFE"/>
   </g>
 </svg>
